@@ -1,6 +1,6 @@
 # Aplicación de apuntes
 
-Esta aplicación fue desarollada con React y se conecta a firebase.
+Esta aplicación fue desarollada en el curso de React y se conecta a firebase.
 
 
 ```

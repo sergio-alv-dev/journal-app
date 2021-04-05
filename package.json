@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +51,8 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
     "cloudinary": "^1.25.1",
     "enzyme": "^3.11.0",
+    "gh-pages": "^3.1.0",
     "redux-mock-store": "^1.5.4"
-  }
+  },
+  "homepage": "http://sergio-alv-dev.github.io/journal-app"
 }
